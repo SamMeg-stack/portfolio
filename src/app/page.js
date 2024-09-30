@@ -1,5 +1,7 @@
 "use client";
 import About from "@/sections/About";
+import Contact from "@/sections/Contact";
+import Footer from "@/sections/Footer";
 import Header from "@/sections/Header";
 import HeroSection from "@/sections/Hero";
 import { ProjectsSection } from "@/sections/ProjectsSection";
@@ -15,6 +17,8 @@ export default function Home() {
       <Tape />
       <Testimonials />
       <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }
