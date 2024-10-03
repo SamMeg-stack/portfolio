@@ -3,7 +3,7 @@ import grainImage from "@/assets/images/grain.jpg";
 
 function Contact() {
   return (
-    <div className="py-16 pt-12 lg:py-24 lg:pt-20">
+    <div className="py-16 pt-12 lg:py-24 lg:pt-20" id="Contact">
       <div className="container">
         <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left relative overflow-hidden z-0">
           <div
@@ -23,10 +23,10 @@ function Contact() {
               </p>
             </div>
             <div className="">
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 md:w-max border border-gray-900">
+              <a href="https://wa.me/+212687750949" className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 md:w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRight classname="size-4" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

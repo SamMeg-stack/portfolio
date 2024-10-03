@@ -12,7 +12,7 @@ import Html5 from "@/assets/icons/Html5";
 import ReactIcon from "@/assets/icons/Reactjs";
 import Github from "@/assets/icons/Github";
 // import TechIcon from "@/components/TechIcon";
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/map1.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import CardHeader from "@/components/CardHeader";
 import ToolboxItems from "@/components/ToolboxItems";
@@ -64,7 +64,7 @@ const hobbies = [
 ];
 function About() {
   return (
-    <div className="py-20 lg:py-28">
+    <div className="py-20 lg:py-28 scroll-smooth" id="About">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
