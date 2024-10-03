@@ -4,7 +4,7 @@ import SectionHeader from "./SectionHeader";
 import Card from "@/components/Card";
 import book from "@/assets/images/book-cover.png";
 import Image from "next/image";
-import mapImage from "@/assets/images/map1.png";
+import mapImage from "../assets/images/map1.PNG";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import CardHeader from "@/components/CardHeader";
 import ToolboxItems from "@/components/ToolboxItems";
