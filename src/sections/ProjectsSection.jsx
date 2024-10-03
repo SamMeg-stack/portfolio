@@ -5,7 +5,6 @@ import aiStartupLandingPages from "@/assets/images/project4.png";
 import Image from "next/image";
 import CheckCircle from "@/assets/icons/CheckCircle";
 import ArrowUpRight from "@/assets/icons/ArrowUpRight";
-import grainImage from "@/assets/images/grain.jpg";
 import SectionHeader from "./SectionHeader";
 import Card from "@/components/Card";
 
