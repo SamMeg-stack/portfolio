@@ -23,12 +23,12 @@ export const metadata = {
     siteName: 'Samir Meglaoui',
     images: [
       {
-        url: 'https://megsamir.vercel.app/samirlogo.jpg',
+        url: 'https://megsamir.vercel.app/public/samirlogo.jpg',
   width: 800,
         height: 600,
       },
       {
-        url: 'https://megsamir.vercel.app/samirlogo.jpg',
+        url: 'https://megsamir.vercel.app/public/samirlogo.jpg',
         width: 1800,
         height: 1600,
         alt: 'Samir Meglaoui',
