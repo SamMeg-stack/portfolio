@@ -19,16 +19,16 @@ export const metadata = {
   openGraph: {
     title: 'Samir Meglaoui',
     description: "Building solutions one line of code at a time. Passionate about tech, innovation, and continuous learning.",
-    url: 'https://mc-auto.fr',
+    url: 'https://megsamir.vercel.app/',
     siteName: 'Samir Meglaoui',
     images: [
       {
-        url: 'https://mc-auto.fr/image.jpeg',
-        width: 800,
+        url: 'https://megsamir.vercel.app/samirlogo.jpg',
+  width: 800,
         height: 600,
       },
       {
-        url: 'https://mc-auto.fr/image.jpeg',
+        url: 'https://megsamir.vercel.app/samirlogo.jpg',
         width: 1800,
         height: 1600,
         alt: 'Samir Meglaoui',
