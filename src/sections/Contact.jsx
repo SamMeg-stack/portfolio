@@ -23,7 +23,7 @@ function Contact() {
               </p>
             </div>
             <div className="">
-              <a href="https://wa.me/+212687750949" className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 md:w-max border border-gray-900">
+              <a href="https://wa.me/+212687750949" target="_blank" className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 mt-8 md:w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRight classname="size-4" />
               </a>

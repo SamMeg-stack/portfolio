@@ -6,7 +6,6 @@ import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 import Image from "next/image";
 import SectionHeader from "./SectionHeader";
-// import grain from "@/assets/images/grain.jpg";
 import Card from "@/components/Card";
 
 const testimonials = [
@@ -59,7 +58,7 @@ const Testimonials = () => {
               {testimonials.map((testimonial, index) => (
                 <Card
                   key={index}
-                  className="max-w-xs md:max-x-md p-6 md:p-8 hover:-rotate-3 transition duration-300"
+                  className=" max-w-xs md:max-w-md md:max-x-md p-6 md:p-8 hover:-rotate-3 transition duration-300"
                 >
                   <div className="flex gap-4 items-center">
                     <div className="size-14 bg-gray-700 inline-flex rounded-full items-center justify-center flex-shrink-0">
@@ -76,7 +75,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="mt-4 md:mt-6 text-sm  md:text-base text-justify">
+                  <p className="mt-4 md:mt-6 text-sm  md:text-base">
                     {testimonial.text}
                   </p>
                 </Card>

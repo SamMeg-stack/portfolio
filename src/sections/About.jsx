@@ -89,16 +89,6 @@ function About() {
                 className="mt-6 "
                 itemsWrapperClassName="animate-move-right [animation-duration:15s]"
               />
-              {/* <div>
-              {toolbox.map((item, index) => (
-                <div key={index} className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg">
-                  <TechIcon component={item.iconType}   />
-                  <JavaScript  classname="size-6" />
-                  <span className="size-10">{item.iconType}</span>
-                  <span className="font-semibold">{item.title}</span>
-                </div>
-              ))}
-            </div> */}
             </Card>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">

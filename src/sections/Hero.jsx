@@ -21,46 +21,6 @@ function Hero() {
         <div className="size-[820px] hero-ring"></div>
         <div className="size-[1020px] hero-ring"></div>
         <div className="size-[1220px] hero-ring"></div>
-
-        {/* <HeroOrbit size={800} rotation={-80}>
-          <Star classname="text-emerald-300 size-28" />
-        </HeroOrbit>
-
-        <HeroOrbit size={550} rotation={20}>
-          <Star classname="text-emerald-300 size-12" />
-        </HeroOrbit>
-
-        <HeroOrbit size={590} rotation={98}>
-          <Star classname="text-emerald-300 size-8" />
-        </HeroOrbit>
-
-        <HeroOrbit size={430} rotation={-14}>
-          <Sparkle classname="size-8 text-emerald-300/20" />
-        </HeroOrbit>
-
-        <HeroOrbit size={440} rotation={79}>
-          <Sparkle classname="size-5 text-emerald-300/20" />
-        </HeroOrbit>
-
-        <HeroOrbit size={530} rotation={178}>
-          <Sparkle classname="size-10 text-emerald-300/20" />
-        </HeroOrbit>
-
-        <HeroOrbit size={710} rotation={144}>
-          <Sparkle classname="size-14 text-emerald-300/20" />
-        </HeroOrbit>
-
-        <HeroOrbit size={720} rotation={85}>
-          <div className="w-3 h-3 rounded-full bg-emerald-300/20"></div>
-        </HeroOrbit>
-
-        <HeroOrbit size={520} rotation={-41}>
-          <div className="w-2 h-2 rounded-full bg-emerald-300/20"></div>
-        </HeroOrbit>
-
-        <HeroOrbit size={650} rotation={-5}>
-          <div className="w-2 h-2 rounded-full bg-emerald-300/20"></div>
-        </HeroOrbit> */}
         <HeroOrbit
           size={430}
           rotation={-14}

@@ -14,8 +14,29 @@ const calistoga = Calistoga({
 });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Samir Meglaoui",
+  title: "Samir Meglaoui",
+  description: "Building solutions one line of code at a time. Passionate about tech, innovation, and continuous learning.",
+  openGraph: {
+    title: 'Samir Meglaoui',
+    description: "Building solutions one line of code at a time. Passionate about tech, innovation, and continuous learning.",
+    url: 'https://mc-auto.fr',
+    siteName: 'Samir Meglaoui',
+    images: [
+      {
+        url: 'https://mc-auto.fr/image.jpeg',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://mc-auto.fr/image.jpeg',
+        width: 1800,
+        height: 1600,
+        alt: 'Samir Meglaoui',
+      },
+    ],
+    locale: 'en_EN',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {

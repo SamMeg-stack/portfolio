@@ -54,8 +54,6 @@ function ToolboxItems({ className, itemsWrapperClassName }) {
                 key={index}
                 className="inline-flex items-center gap-4 py-2 px-3 outline outline-2 outline-white/10 rounded-lg"
               >
-                {/* <TechIcon component={item.iconType}   /> */}
-                {/* <JavaScript  classname="size-6" /> */}
                 <span className="size-10">{item.iconType}</span>
                 <span className="font-semibold">{item.title}</span>
               </div>
