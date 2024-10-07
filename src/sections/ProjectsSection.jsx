@@ -1,4 +1,4 @@
-import darkSaasLandingPage from "../assets/images/project11.PNG";
+import darkSaasLandingPage from "../assets/images/project5.PNG";
 import lightSaasLandingPage from "../assets/images/project2.PNG";
 import aiStartupLandingPage from "../assets/images/project3.PNG";
 import aiStartupLandingPages from "../assets/images/project4.PNG";
@@ -11,15 +11,15 @@ import Card from "@/components/Card";
 const portfolioProjects = [
   {
     id: 1,
-    company: "portfolio",
-    year: "2023",
-    title: "portfolio website built with Next.js",
+    company: "Play&Hack",
+    year: "2024",
+    title: "Play&Hack: Master Cybersecurity with Hands-On Challenges",
     results: [
-      { title: "Explore My Next.js Portfolio: Skills, Projects & More" },
-      { title: "Tailwind-Crafted Portfolio: Projects & Expertise Showcase" },
-      { title: "Next.js & Tailwind Portfolio: Dive into My Work" },
+      { title: "Boost Your Cyber Skills with Play&Hack" },
+      { title: "Join Moroccan Hackers: Play&Hack Cybersecurity Hub" },
+      { title: "Test, Learn, and Hack with Play&Hack" },
     ],
-    link: "https://portfolio-livid-two-52.vercel.app/",
+    link: "https://playnhack.com/",
     image: darkSaasLandingPage,
   },
   {
@@ -73,11 +73,12 @@ export const ProjectsSection = () => {
           description="see how I transformed concepts into engaging digital expereence ."
         />
         <div className="flex flex-col mt-10 md:mt-20 gap-10">
-          {portfolioProjects.map((project,index) => (
+          {portfolioProjects.map((project, index) => (
             <Card
               key={project.id}
-              className=" px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky" style={{
-                top:`calc(64px + ${index *40}px)`
+              className=" px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+              style={{
+                top: `calc(64px + ${index * 40}px)`,
               }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16 relative z-20">
@@ -92,15 +93,22 @@ export const ProjectsSection = () => {
                   </h3>
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-                    {project.results.map((result,index) => (
-                      <li key={index} className="flex gap-2 text-sm md:text-base text-white/50">
+                    {project.results.map((result, index) => (
+                      <li
+                        key={index}
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckCircle classname="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
                     ))}
                   </ul>
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <div  className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 ">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 ">
                       <span>Visit Live Site</span>
                       <ArrowUpRight classname="size-4" />
                     </div>
